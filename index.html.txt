@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Present Truth Remnant Church</title>
+  <meta name="description" content="Present Truth Remnant Church — Service times, sermons, and contact information." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <div class="logo">⛪</div>
+        <div>
+          <div class="church-name">Present Truth Remnant Church</div>
+          <div class="tagline">A Bible-believing independent church</div>
+        </div>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open Menu">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#times">Service Times</a>
+        <a href="#sermons">Sermons</a>
+        <a href="#give">Give</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Welcome to Present Truth Remnant Church</h1>
+        <p>
+          We are a small independent church dedicated to the preaching of God’s Word,
+          prayer, worship, and Christian fellowship.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#times">See Service Times</a>
+          <a class="btn" href="#contact">Plan a Visit</a>
+        </div>
+
+        <div class="quick-info">
+          <div class="info-card">
+            <div class="info-title">📍 Location</div>
+            <div class="info-text">Your City, State</div>
+          </div>
+          <div class="info-card">
+            <div class="info-title">🕊️ Sunday Service</div>
+            <div class="info-text">10:00 AM</div>
+          </div>
+          <div class="info-card">
+            <div class="info-title">📖 Bible Study</div>
+            <div class="info-text">Wednesday 7:00 PM</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-card">
+          <div class="image-top">“Thy word is truth.”</div>
+          <div class="image-bottom">John 17:17</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Our Church</h2>
+      <p class="section-lead">
+        We welcome individuals and families seeking a place to grow in faith, learn the Bible,
+        and worship the Lord in spirit and in truth.
+      </p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Our Mission</h3>
+          <p>
+            To preach the Gospel, teach the Scriptures, and encourage believers to live faithfully
+            in Christ.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>What to Expect</h3>
+          <p>
+            Friendly fellowship, prayer, worship, and Bible preaching. Modest and welcoming environment.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>For Families</h3>
+          <p>
+            We love families. Children are welcome and we aim to build strong homes grounded in God’s Word.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Times -->
+  <section id="times" class="section alt">
+    <div class="container">
+      <h2>Service Times</h2>
+      <p class="section-lead">Join us weekly. Everyone is welcome.</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Sunday</h3>
+          <ul class="list">
+            <li><strong>Sunday School / Bible Study:</strong> 9:00 AM</li>
+            <li><strong>Morning Worship:</strong> 10:00 AM</li>
+            <li><strong>Evening Service:</strong> 6:00 PM</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Midweek</h3>
+          <ul class="list">
+            <li><strong>Wednesday Prayer & Bible Study:</strong> 7:00 PM</li>
+            <li><strong>Fellowship:</strong> After service</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="notice">
+        <strong>Note:</strong> Please contact us if weather is severe or for holiday schedule updates.
+      </div>
+    </div>
+  </section>
+
+  <!-- Sermons -->
+  <section id="sermons" class="section">
+    <div class="container">
+      <h2>Sermons</h2>
+      <p class="section-lead">
+        Watch or listen to recent messages. (You can link YouTube, Facebook, or audio files here.)
+      </p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Recent Message #1</h3>
+          <p>Title: Walking in Truth</p>
+          <a class="link" href="#" target="_blank" rel="noopener">Watch / Listen →</a>
+        </div>
+
+        <div class="card">
+          <h3>Recent Message #2</h3>
+          <p>Title: Faith & Obedience</p>
+          <a class="link" href="#" target="_blank" rel="noopener">Watch / Listen →</a>
+        </div>
+
+        <div class="card">
+          <h3>Recent Message #3</h3>
+          <p>Title: Prayer That Prevails</p>
+          <a class="link" href="#" target="_blank" rel="noopener">Watch / Listen →</a>
+        </div>
+      </div>
+
+      <div class="center">
+        <a class="btn" href="#contact">Ask for Sermon Links</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Give -->
+  <section id="give" class="section alt">
+    <div class="container">
+      <h2>Give</h2>
+      <p class="section-lead">
+        If you would like to support the ministry, you may give securely online or in person.
+      </p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Give Online</h3>
+          <p>
+            Add your giving link here (Cash App, PayPal, Zelle, etc.).
+          </p>
+          <a class="btn primary" href="#" target="_blank" rel="noopener">Give Now</a>
+        </div>
+
+        <div class="card">
+          <h3>Give In Person</h3>
+          <p>
+            Offerings may be given during services. Thank you for supporting the work of the church.
+          </p>
+          <div class="small-muted">“God loveth a cheerful giver.” — 2 Corinthians 9:7</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="section-lead">
+        We would love to hear from you. Reach out with any questions or prayer requests.
+      </p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Church Contact</h3>
+          <ul class="list">
+            <li><strong>Phone:</strong> <a class="link" href="tel:+11234567890">(123) 456-7890</a></li>
+            <li><strong>Email:</strong> <a class="link" href="mailto:info@yourchurch.com">info@yourchurch.com</a></li>
+            <li><strong>Address:</strong> 123 Church Street, Your City, ST 00000</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="tel:+11234567890">Call Now</a>
+            <a class="btn" href="mailto:info@yourchurch.com">Email</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Find Us</h3>
+          <p class="small-muted">Replace the map link with your church address.</p>
+          <a class="btn" href="https://www.google.com/maps" target="_blank" rel="noopener">
+            Open in Google Maps
+          </a>
+
+          <div class="divider"></div>
+
+          <h3>Prayer Requests</h3>
+          <p class="small-muted">
+            Email us your prayer request and we will pray with you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-title">Present Truth Remnant Church</div>
+        <div class="small-muted">© <span id="year"></span> — All rights reserved.</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#times">Service Times</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
