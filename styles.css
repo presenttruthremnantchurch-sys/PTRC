@@ -63,6 +63,8 @@ body{
   height: 100%;
   object-fit: contain;
   border-radius: 12px;
+  transform: scale(1.15);
+
 }
 
 
@@ -355,5 +357,6 @@ body{
   .nav.open{ display:flex; }
   .nav a{ padding:.65rem .75rem; }
 }
+
 
 
