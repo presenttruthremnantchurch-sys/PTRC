@@ -1,13 +1,15 @@
 :root{
-  --bg:#0b1220;
-  --card:#111a2e;
-  --alt:#0f1730;
-  --text:#eaf0ff;
-  --muted:#b9c3dd;
-  --accent:#6aa6ff;
-  --accent2:#86f7c7;
-  --border:rgba(255,255,255,.12);
+  /* Lighter, more lively theme (still keeps white text readable) */
+  --bg:#0f1b33;          /* lighter than before */
+  --card:#16254a;        /* brighter cards */
+  --alt:#132042;         /* section alt background */
+  --text:#f2f6ff;        /* keep text bright */
+  --muted:#c8d3f0;       /* softer muted text */
+  --accent:#7bb1ff;      /* brighter blue */
+  --accent2:#9af7d5;     /* brighter mint */
+  --border:rgba(255,255,255,.16);
 }
+
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -353,4 +355,5 @@ body{
   .nav.open{ display:flex; }
   .nav a{ padding:.65rem .75rem; }
 }
+
 
