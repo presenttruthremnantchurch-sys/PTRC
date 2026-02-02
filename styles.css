@@ -1,14 +1,17 @@
 :root{
-  /* Lighter, more lively theme (still keeps white text readable) */
-  --bg:#0f1b33;          /* lighter than before */
-  --card:#16254a;        /* brighter cards */
-  --alt:#132042;         /* section alt background */
-  --text:#f2f6ff;        /* keep text bright */
-  --muted:#c8d3f0;       /* softer muted text */
-  --accent:#7bb1ff;      /* brighter blue */
-  --accent2:#9af7d5;     /* brighter mint */
+  --bg:#0f1b33;
+  --card:#16254a;
+  --alt:#132042;
+
+  --text:#f2f6ff;
+  --muted:#c8d3f0;
+
+  --accent:#7bb1ff;   /* bright blue */
+  --accent2:#9af7d5;  /* mint */
+
   --border:rgba(255,255,255,.16);
 }
+
 
 
 *{box-sizing:border-box}
@@ -361,6 +364,7 @@ body{
   .nav.open{ display:flex; }
   .nav a{ padding:.65rem .75rem; }
 }
+
 
 
 
