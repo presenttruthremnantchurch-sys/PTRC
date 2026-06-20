@@ -239,7 +239,22 @@ body{
 .section{
   padding:3rem 0;
 }
+.flyer-section{
+  position:relative;
+  z-index:1;
+  padding:2rem 0 1rem;
+}
 
+.flyer-image{
+  width:100%;
+  max-height:1000px;
+  object-fit:contain;
+  display:block;
+  border-radius:32px;
+  box-shadow:0 18px 45px rgba(37,99,235,.18);
+  background:rgba(255,255,255,.85);
+  padding:.5rem;
+}
 .section.alt{
   background: linear-gradient(180deg, #f7fbff, #eef4ff);
   border-top:1px solid rgba(37,99,235,.12);
